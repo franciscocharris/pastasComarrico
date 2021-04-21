@@ -1,0 +1,297 @@
+/* Diseñado por Francisco M. Charris C. 2021 */
+:root{
+    --colorPrimario: #ed1027;
+    --colorSecundario: #f7eb12;
+    --colorTerciario:#007135;
+    --fuenteComarrico: "URWApacheW01-Regular";
+}
+
+.titulo_pastasComarrico{
+    -webkit-text-stroke: 2px #007135;
+    color: white;
+    font-family: var(--fuenteComarrico);
+}
+
+.texto_comarrico{
+    color: var(--colorPrimario); 
+    font-family: var(--fuenteComarrico);
+    font-size:2.8rem;
+}
+html {
+    font-size: 62.5% /*tamaño de la fuente*/; 
+    box-sizing: border-box;
+    /* scroll-snap-type: y mandatory;  */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/** Globales **/
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+h2 {
+    font-size: 3.4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2.6rem;
+}
+
+a{
+    font-size: 1.6rem;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.navbar-nav{
+    align-items: flex-end;
+}
+.navbar-brand{
+    font-size: 1.8rem;
+}
+.fab{
+    color: #e7e6e9!important;
+}
+
+.fab,
+.fas,
+.far{
+    font-size: 1.8rem;
+}
+.btn{
+    font-size: 2rem;
+}
+.btn-lg{
+    font-size: 2.5rem;
+}
+
+/* navbar */
+.navbar{
+    background-color: var(--colorPrimario);
+}
+
+.nav-item {
+    background-color: var(--colorSecundario);
+    border-radius: .7rem;
+    margin-right: .3rem;
+    transition: all .5s ease-in-out;
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: var(--colorPrimario);
+    padding: 0 .7rem;
+    font-weight: bold;  
+}
+
+.nav-link:hover{
+    color: var(--colorPrimario);
+}
+/* para el navbar el fondo de la hambuergesa */
+.hamburguesa_fondo {
+    font-size: 1.8rem;
+    background-color: var(--colorSecundario);
+}
+
+/* menu redondo para ergonomia */
+@media (max-width: 768px) {
+    .navbar-collapse {
+        margin-left: -92.5rem;
+        position: fixed;
+        background: var(--colorPrimario);
+        top: 5.6rem;
+        left: 0;
+        width: 90%;
+        transition: all .3s ease-in-out;
+    }
+    .navbar-nav{
+        align-items: flex-start;
+    }
+    .nav-item{
+        width: 100%;
+        border-radius: 0;
+        border-bottom: 1.7px solid var(--colorSecundario);
+        background-color: var(--colorPrimario);
+    }
+    .nav-link{
+        color: var(--colorSecundario);
+        margin-left: .5rem;
+        padding: 1rem;
+    }
+    .redondo_ergonomico{
+        display: block;
+        width: 50px;
+        position: fixed;
+        bottom: 3rem;
+        right: 1.6rem;
+        background-color: var(--colorSecundario);
+        text-align: center;
+        padding: 10px 5px;
+        border-radius: 50%;
+        z-index: 2;
+    }
+    .collapse:not(.show) {
+        display: block;
+    }
+}
+.malla_abajo{
+    border-top: 1px solid var(--colorSecundario);
+    width: 100%;
+    display: block;
+    /* height: .5rem; */
+    margin-top: 5.6rem;
+}
+/* header vacano reutilizar desde aqui */
+.header{
+    background-image: url(../img/bg-header.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 9rem;
+}
+
+.img_logo{
+    width: 4rem;
+}
+
+.linear_white::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1rem;
+    background-color: white;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    margin-bottom: -1px;
+}
+.vh-50{
+    height: 41vmin;
+}
+@media (max-width: 768px) {
+    .col-md-10.col-lg-6.text-white.text-capitalize {
+        margin-top: -18rem;
+    }
+    .col-md-10.col-lg-6.text-white.text-capitalize h1{
+        margin: 0;
+    }
+    .col-md-10.col-lg-6.text-white.text-capitalize p{
+        font-size: 1.3rem;
+    }
+    .header{
+        padding-top: 16rem;
+    }
+    .vh-50{
+        height: 50vmin;
+    }
+}
+/* fin header */
+
+
+
+/* NOSOTROS */
+.caracteristicas{
+    margin-bottom: 2rem;
+    transition: all .3s ease-in-out;
+}
+.caracteristicas:hover{
+    transform: scale(1.1);
+}
+.caracteristicas img{
+    width: 20rem;
+}
+
+.link_nosotros {
+    width: 54%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* v2 */
+
+.nosotros_v2{
+    background-color: var(--colorSecundario);
+    font-family: var(--fuenteComarrico);
+}
+
+p.nosotros_home{
+    color: var(--colorPrimario);
+    line-height: 2.1rem;
+    font-size: 2.3rem;
+}
+
+/* CALIDAD DE NUESTROS PRODUCTOS */
+.calidad_producto{
+    background-image: url('../img/calidad_productos_pastas_comarrico.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.calidad_producto_img{
+    --tamaño: 8rem;
+    width: var(--tamaño);
+    height: var(--tamaño);
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: .7rem .7rem .7rem rgba(0, 0, 0, .5);
+    border: .3rem ridge white;
+}
+
+.transform-turn{
+    transform: rotate(.5turn);
+}
+
+/* PRODUCTOS */
+.texto_producto{
+    color: var(--colorPrimario);
+    font-family: var(--fuenteComarrico);
+    font-size: 2rem;
+}
+
+/* FOOTER */
+
+footer li{
+    transition: all .3s ease-in-out;
+}
+footer li:hover{
+    transform: scale(1.1);
+}
+.primer_footer{
+    background-color: var(--colorSecundario);
+    color: var(--colorPrimario); 
+    font-family: URWApacheW01-Regular;
+}
+
+.primer_footer p{
+    line-height: 2rem;
+}
+
+.col-md-3 .list-inline  li a i{
+    color: var(--colorPrimario)!important;
+}
+.segundo_footer{
+    background-color: var(--colorPrimario);
+    color: var(--colorSecundario); 
+    font-family: URWApacheW01-Regular;
+}
+.segundo_footer p{
+    text-align:center;
+    margin:0;
+}
