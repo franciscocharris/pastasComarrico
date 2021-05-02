@@ -63,9 +63,9 @@ a:hover{
 .navbar-brand{
     font-size: 1.8rem;
 }
-.fab{
+/* .fab{
     color: #e7e6e9!important;
-}
+} */
 
 .fab,
 .fas,
@@ -120,15 +120,31 @@ a:hover{
         left: 0;
         width: 90%;
         transition: all .3s ease-in-out;
+        height: 100%;
     }
     .navbar-nav{
         align-items: flex-start;
+    }
+
+    ul.navbar-nav.ml-auto.menu-scale {
+        height: 100%!important;
     }
     .nav-item{
         width: 100%;
         border-radius: 0;
         border-bottom: 1.7px solid var(--colorSecundario);
         background-color: var(--colorPrimario);
+        height: 12%;
+        padding: 3% 0;
+    }
+
+    .nav-item:last-of-type{
+        background-color: var(--colorSecundario)!important;
+    }
+
+    .nav-link.list-inline .list-inline-item {
+        padding: 0 1.5rem;
+        color: var(--colorPrimario)!important;
     }
     .nav-link{
         color: var(--colorSecundario);
@@ -146,6 +162,7 @@ a:hover{
         padding: 10px 5px;
         border-radius: 50%;
         z-index: 2;
+        border: .5px solid var(--colorPrimario);
     }
     .collapse:not(.show) {
         display: block;
@@ -160,7 +177,7 @@ a:hover{
 }
 /* header vacano reutilizar desde aqui */
 .header{
-    background-image: url(../img/bg-header.jpg);
+    background-image: url(../img/header.jpg);
     background-position: center center;
     background-size: cover;
     position: relative;

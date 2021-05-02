@@ -31,7 +31,7 @@
       <button class="navbar-toggler redondo_ergonomico hamburguesa_fondo " type="button" aria-controls="navbarNav"
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon">
-          <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+          <i class="fas fa-bars" style="color:var(--colorPrimario); font-size:28px;"></i>
         </span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -51,7 +51,11 @@
           <li class="nav-item">
             <a class="nav-link" href="contactanos.php">Contactanos</a>
           </li>
-          
+          <li class="nav-item d-md-none">
+              <ul class="list-inline nav-link">
+                <?php include 'includes/menu_social.php'; ?>             
+              </ul>
+          </li>
         </ul>
       </div>
     </div>

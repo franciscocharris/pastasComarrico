@@ -24,12 +24,8 @@
             <div class="col-md-3">
               <h2 class="footer-heading mb-4 font-weight-bold">Siguenos</h2>
               <ul class="list-inline">
-                <li class="list-inline-item"><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                <li class="list-inline-item"><a href=""><i class="fab fa-twitter"></i></a></li>
-                <li class="list-inline-item"><a href=""><i class="fab fa-youtube"></i></a></li>
-                <li class="list-inline-item"><a href=""><i class="fab fa-instagram"></i></a></li>
-                
-            </ul>
+                <?php include 'includes/menu_social.php'; ?>             
+              </ul>
             </div>
           </div>
         </div>
