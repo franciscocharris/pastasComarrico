@@ -1,4 +1,6 @@
 /* Diseñado por Francisco M. Charris C. 2021 */
+
+
 :root{
     --colorPrimario: #ed1027;
     --colorSecundario: #f7eb12;
@@ -85,8 +87,6 @@ a:hover{
 }
 
 .nav-item {
-    background-color: var(--colorSecundario);
-    border-radius: .7rem;
     margin-right: .3rem;
     transition: all .5s ease-in-out;
 }
@@ -96,13 +96,16 @@ a:hover{
 }
 
 .nav-link {
-    color: var(--colorPrimario);
+    color: var(--colorSecundario);
     padding: 0 .7rem;
     font-weight: bold;  
+    transition: all .3s ease-in-out;
+    border-radius: .5rem;
 }
 
 .nav-link:hover{
     color: var(--colorPrimario);
+    background-color: var(--colorSecundario);
 }
 /* para el navbar el fondo de la hambuergesa */
 .hamburguesa_fondo {

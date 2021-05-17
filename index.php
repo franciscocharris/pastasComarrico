@@ -142,9 +142,10 @@
     </div>
 
     <div class="col-md-12 text-center">
-      <a href="productos.html" class="btn btn-outline-success">ver mas productos <i class="fas fa-caret-right"></i></a>
+      <a href="productos.php" class="btn btn-outline-success">ver mas productos <i class="fas fa-caret-right"></i></a>
     </div>
   </main>
+
 
   <!-- footer -->
 <?php require 'includes/footer.php'; ?>
