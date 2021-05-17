@@ -15,7 +15,6 @@
   <!-- CSS Main -->
   <link rel="stylesheet" href="css/main.css" />
   <!-- fuente pastas comarrico -->
-
 </head>
 
 <body>
