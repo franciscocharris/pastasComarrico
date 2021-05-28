@@ -4,7 +4,7 @@
 <!-- header home -->
 <header class="header linear_white">
   
-  <div class="row h-100 align-items-center">
+  <div class="row mw-100 m-0 h-100 justify-content-center">
       <div class="container vh-50 " style="margin: 3rem 0;">
       <div class="header_princial col-md-12  text-center text-capitalize">
         <h1 class=" titulo_header">Pastas Comarrico S.A.S</h1>
