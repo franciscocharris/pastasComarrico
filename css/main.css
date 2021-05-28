@@ -1,5 +1,6 @@
 /* Diseñado por Francisco M. Charris C. 2021 */
 
+/* fuentes pastaComarrico */
 @font-face {
     font-family: "URWApacheW01-Regular"; 
     src: url("https://db.onlinewebfonts.com/t/bb7e51b8e670bf5cd7ef3292bfcefb52.eot"); 
@@ -232,27 +233,57 @@ a:hover{
 }
 /* fin header */
 
-
-
-/* NOSOTROS */
-.caracteristicas{
-    margin-bottom: 2rem;
-    transition: all .3s ease-in-out;
+/* titulo del header */
+.header_princial h1{
+    font-family: var(--fuenteComarrico);
+    -webkit-text-stroke: 3.1px var(--colorPrimario);
+    color: var(--colorSecundario);
+    font-size: 11rem;
+    margin: 1rem 0 0 0;
 }
-.caracteristicas:hover{
+.header_princial p{
+    font-family: var(--fuenteComarrico);
+    -webkit-text-stroke: 2px var(--colorTerciario);
+    color: white;
+    font-size: 4.15rem;
+    margin-top: -2rem;
+}
+.header_princial a {
+    border: 2px solid var(--colorSecundario);
+    color: var(--colorSecundario);
+    text-transform: uppercase;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50px;
+    background: var(--colorPrimario);
+    font-weight: bold;
+    font-size: -1rem;
+    padding: 1rem .9rem;
+}
+.header_princial a:hover{
+    color: var(--colorPrimario);
     transform: scale(1.1);
 }
-.caracteristicas img{
-    width: 20rem;
+
+@media (max-width: 768px) {
+    .header{
+        padding-top: 0;
+    }
+    .header_princial h1 {
+        -webkit-text-stroke: 1.5px var(--colorPrimario);
+        font-size: 4rem;
+    }
+    .header_princial p {
+        -webkit-text-stroke: .8px var(--colorTerciario);
+        font-size: 1.5rem;
+        margin-top: 0;
+    }    
+    .header_princial a{
+        font-size: .7rem;
+        padding: .5rem .9rem;
+    }
 }
 
-.link_nosotros {
-    width: 54%;
-    display: block;
-    margin: 0 auto;
-}
-
-/* v2 */
+/* v2 prueba home */
 
 .nosotros_v2{
     background-color: var(--colorSecundario);
@@ -264,6 +295,284 @@ p.nosotros_home{
     line-height: 2.1rem;
     font-size: 2.3rem;
 }
+
+/*css de kristopher*/
+/* NOSOTROS */
+.header .nosotros{
+    -webkit-text-stroke: 2px #007135;
+    font-family: var(--fuenteComarrico);
+    font-size: 10rem;
+    margin:0;
+}
+.header_nosotros{
+    background-image: url(../img/3.jpg);
+}
+
+.site-section{
+    background: url('../img/nosotros/desenfocada.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: var(--fuenteComarrico);
+    
+}
+.caracteristicas{
+    font-family: var(--fuenteComarrico);
+    margin-bottom: 2rem;
+    transition: all .3s ease-in-out;
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.45);
+-moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.45);
+box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.45);
+    background-color:white;
+    /* padding:0!important; */
+    max-width:35.3rem;
+}
+.caracteristicas h3{
+    font-size: 19px;
+}
+.caracteristicas p{
+    font-size: 15px;
+}
+.caracteristicas:hover{
+    transform: scale(1.1);
+    z-index:5;
+}
+.caracteristicas img{
+    padding: 10px;
+    width: 10rem;
+}
+
+
+.site-section1{
+ 
+    font-family: var(--fuenteComarrico);
+
+
+}
+.site-section1 h2{
+    color: #415161;
+}
+.site-section1 p{
+    color: #677481;
+}
+
+p.politica{
+    color: rgba(0, 0, 0, .7);
+    font-size: 1.9rem;
+}
+p.subtitulopolitica{
+    color: rgba(0, 0, 0, .7);
+}
+
+.site-section2{
+    background-image: url('../img/nosotros/banner3.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: var(--fuenteComarrico);
+
+    
+}
+
+
+.principios-corporativos-item .number{
+    width: 50px;
+    height: 50px;
+    border: 4px solid #fff;
+    background: #f16821;
+    color: #fff;
+    line-height: 44px;
+    font-weight: 300;
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+.principios-corporativos-item p{
+    font-size: 15px;
+}
+.principios-corporativos-item h2{
+    font-size: 27px;
+}
+.informacion {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #f8f9fa; }
+    .informacion img {
+      width: 80px;
+      border-radius: 50%;
+      margin-bottom: 30px;
+      margin-top: -50px;
+      -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
+      box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.6); }
+    .informacion blockquote {
+      font-size: 19px;
+      font-family: var(--fuenteComarrico);
+      font-style: italic;
+    }
+
+    .informacion h2{
+        color: #415161;
+    }
+    .informacion p{
+        color: #677481;
+    }
+    .site-section5 .titulo-historia{
+        color: #415161;
+    }
+    .site-section5 .texto-historia{
+        color: #677481;
+    }
+    .site-sectionhistoria{
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+    }
+    .site-section7 .titulo-objetivos{
+        color: #415161;
+    } 
+    /* estilos de los botones de continuar */
+    .btnplay{
+        font-size: 17px;
+        font-size: 1.3rem;
+        font-family: tahoma;
+        font-weight: bold;
+        padding: 20px 40px;
+    }
+    .btnplay{
+        border: 2px solid var(--colorPrimario);
+        color: var(--colorPrimario);
+        text-transform: uppercase;
+        transition: all 0.5s ease-in-out;
+        border-radius: 50px;
+        background: #fff538;
+        font-weight: bold;
+        box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.5);
+        
+    }
+    .btnplay .fa{
+        margin-left: 20px;
+    }
+
+    .btnplay:hover, .btnplay:focus{
+        background: #fff538;
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    /* */
+
+    .site-section4, .site-section2 {
+        overflow: hidden;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .site-section4.overlay, .site-section2.overlay{
+        position: relative;
+    }
+    .site-section4.overlay:before, .site-section2.overlay:before{
+        top:0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        content: "";
+        position: absolute;
+
+    }.site-section4 > .container, .site-section2 > .container{
+        position: relative;
+        z-index: 2;
+    }.slide-item, .slide-item > .container > .row, .cover, .cover > .container > .row{
+        height: 100vh;
+        min-height: 760px; 
+    }
+
+
+    /* seccion css de objetivos */
+    .collapse:not(.show) {
+        display: none; 
+    }
+    
+    .miacordion {
+        margin: 0 auto;
+        overflow: hidden;
+    }     
+    .miacordion .card,
+    .miacordion .card:last-child .card-header {
+        border: none;
+        background: transparent; 
+    }
+    .miacordion .card-header {
+        border: none;
+        background: transparent; 
+    }
+    .miacordion .card-header p {
+        position: relative;
+        font-weight: bold;
+        font-size: 18px;   
+        text-align: left; 
+        color: #415161;
+
+    }     
+    .miacordion .fa {
+        font-size: 16px;
+        color: rgba(0, 0, 0, 0.3); 
+    }
+    .miacordion .btn {
+    width: 100%;
+    font-weight: 600;
+    color: black;
+    padding: 0;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    border-radius: 0 !important;
+    margin-bottom: 10px;
+    border-radius: 40px !important;
+    -webkit-box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+    -moz-box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.21) !important;
+    box-shadow: 0px 2px 8px -4px rgba(0, 0, 0, 0.8) !important; 
+    }
+    .miacordion .btn-link:hover,
+    .miacordion .btn-link:focus {
+        text-decoration: none; 
+    } 
+    .miacordion [data-toggle="collapse"] .fa:before {
+        content: "\f078";
+        font-family: "FontAwesome";
+        font-style: normal; 
+    }
+      
+    .miacordion [data-toggle="collapse"].collapsed .fa:before {
+        content: "\f077";
+        font-family: "FontAwesome";
+        font-style: normal; 
+        
+    }
+    
+    .miacordion button[aria-expanded="true"] {
+        background-color: #1ba12d;
+        color: #fff !important;}
+        .miacordion button[aria-expanded="true"] .fa {
+            color: #fff !important;} 
+
+    .miacordion button[aria-expanded="false"] {
+        background-color: #fff; 
+    }
+    
+    .miacordion .card-body ol li {
+        margin-bottom: 10px;
+        padding-left: 10px;
+        color: #677481;
+    }
+    .miacordion .card-body ol li:last-child {
+          margin-bottom: 0; 
+    }
+    
 
 /* CALIDAD DE NUESTROS PRODUCTOS */
 .calidad_producto{
@@ -287,6 +596,22 @@ p.nosotros_home{
 }
 
 /* PRODUCTOS */
+.productos{
+    margin-bottom: 2rem;
+    transition: all .3s ease-in-out;
+}
+.productos:hover{
+    transform: scale(1.1);
+}
+.productos img{
+    width: 20rem;
+}
+
+.link_nosotros {
+    width: 54%;
+    display: block;
+    margin: 0 auto;
+}
 .texto_producto{
     color: var(--colorPrimario);
     font-family: var(--fuenteComarrico);

@@ -9,14 +9,14 @@
               <p>PASTAS COMARRICO S.A.S. es una compañía que tiene sede única en la ciudad de Barranquilla y que tiene
                 como actividad económica la elaboración de pastas alimenticias en sus diversas formas. Además de atender
                 el mercado de la costa, a partir de febrero del año 2006 empezó a distribuir sus productos en todas las
-                ciudades de nuestro país..</p>
+                ciudades de nuestro país.</p>
             </div>
 
             <div class="col-md-3">
               <h2 class="footer-heading mb-4 font-weight-bold">enlaces Rapidos</h2>
               <ul class="list-unstyled">
                 <li><a class="text-reset" href="#">Sobre Nosotros</a></li>
-                <li><a class="text-reset" href="#">Productos</a></li>
+                <li><a class="text-reset" href="../productos.php">Productos</a></li>
                 <li><a class="text-reset" href="#">coorporativo</a></li>
                 <li><a class="text-reset" href="#">Contactanos</a></li>
               </ul>
