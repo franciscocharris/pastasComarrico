@@ -5,15 +5,15 @@
 <header class="header linear_white">
   
   <div class="row mw-100 m-0 h-100 justify-content-center">
-      <div class="container vh-50 " style="margin: 3rem 0;">
-      <div class="header_princial col-md-12  text-center text-capitalize">
-        <h1 class=" titulo_header">Pastas Comarrico S.A.S</h1>
-        <p>La Ricura en Pastas.</p>
-        <a href="" class="btnplay play-single-big mb-4 d-inline-block" id="">
-          Bienvenido <i class="fas fa-check"></i>
-        </a>
+      <div class="container px-0 d-flex align-items-center vh-50 ">
+        <div class="header_princial px-0 col-md-12  text-center text-capitalize">
+          <h1 class=" titulo_header">Pastas Comarrico S.A.S</h1>
+          <p>La Ricura en Pastas.</p>
+          <a href="" class="btnplay play-single-big mb-4 d-inline-block" id="">
+            Bienvenido <i style="font-size: 1rem;" class="fas fa-check"></i>
+          </a>
+        </div>
       </div>
-    </div>
   </div>
   <img src="img/utils/cut-header.svg" alt="barranquilla_pastasComarrico">
 </header>
@@ -22,7 +22,7 @@
 <section class="container p-4 nosotros_v2">
   <div class="row align-items-center">
 
-    <div class="col-md-6 text-align-left">
+    <div class="col-md-6 mb-1 text-align-left">
       <h2 class="display-2 titulo_pastasComarrico">Nosotros</h2>
       <p class="font-weight-bold nosotros_home">PASTAS COMARRICO S.A.S. es una compañía que tiene sede única en la ciudad de Barranquilla y que tiene como actividad económica la elaboración de pastas alimenticias en sus diversas formas. Además de atender el mercado de la costa, a partir de febrero del año 2006 empezó a distribuir sus productos en todas las ciudades de nuestro país.</p>
       <a href="" style="color: var(--colorSecundario)" class="btn btn-danger">Conocenos mas <i class="fas fa-caret-right"></i></a>
