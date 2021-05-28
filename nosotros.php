@@ -3,17 +3,16 @@
 
 <!--header home-->
 <header class="header header_nosotros linear_white">
-    <div class="container vh-50" data-aos="fade-up">
-        <div class="row align-items-center justify-content-center text-center ">
-            <div class="col-md-8 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-                <h1 class="text-capitalize text-white font-weight-bold nosotros">Nosotros</h1>
+    <div class="row mw-100 m-0 h-100 justify-content-center" data-aos="fade-up">
+        <div class="col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+            <div class="container d-flex flex-column align-items-center vh-50 nosotros text-center">
+                <h1 class="text-capitalize text-white font-weight-bold ">Nosotros</h1>
                 <p class="texto_comarrico">CONOCE UN POCO MAS SOBRE COMARRICO S.A.S</p>
-            </div>
-            <div class="col-md-12 text-center mb-2" data-aos="fade-up">
                 <a href="#section-mision" class="btnplay play-single-big mb-4 d-inline-block" id="">
                     Continuar <i class="fas fa-caret-down"> &nbsp; </i>
                 </a>
             </div>
+            
         </div>
     </div>
     <img src="img/utils/cut-header.svg" alt="barranquilla_pastasComarrico">
@@ -385,7 +384,7 @@
                                 </button>
                             </h2>
                         </div>
-                        <div class="collapse" id="collapseOne" role="tabpanel" aria-labelledby="headingOne" data-parent="#acordion">
+                        <div class="collapse acordeon" id="collapseOne" role="tabpanel" aria-labelledby="headingOne" data-parent="#acordion">
                             <div class="card-body">
                                 <ol>
                                     <li>
@@ -409,7 +408,7 @@
                                 </button>
                             </h2>
                         </div>
-                        <div class="collapse" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo" data-parent="#acordion">
+                        <div class="collapse acordeon" id="collapseTwo" role="tabpanel" aria-labelledby="headingTwo" data-parent="#acordion">
                             <div class="card-body">
                                 <ol>
                                     <li>
@@ -433,7 +432,7 @@
                                 </button>
                             </h2>
                         </div>
-                        <div class="collapse" id="collapseThree" role="tabpanel" aria-labelledby="headingThree" data-parent="#acordion">
+                        <div class="collapse acordeon" id="collapseThree" role="tabpanel" aria-labelledby="headingThree" data-parent="#acordion">
                             <div class="card-body">
                                 <ol>
                                     <li>
@@ -472,7 +471,7 @@
                                 </button>
                             </h2>
                         </div>
-                        <div class="collapse" id="collapseFour" role="tabpanel" aria-labelledby="headingFour" data-parent="#acordion">
+                        <div class="collapse acordeon" id="collapseFour" role="tabpanel" aria-labelledby="headingFour" data-parent="#acordion">
                             <div class="card-body">
                                 <ol>
                                     <li>
@@ -493,7 +492,7 @@
                                 </button>
                             </h2>
                         </div>
-                        <div class="collapse" id="collapseFive" role="tabpanel" aria-labelledby="headingFive" data-parent="#acordion">
+                        <div class="collapse acordeon" id="collapseFive" role="tabpanel" aria-labelledby="headingFive" data-parent="#acordion">
                             <div class="card-body">
                                 <ol>
                                     <li>
@@ -517,7 +516,7 @@
                                 </button>
                             </h2>
                         </div>
-                        <div class="collapse" id="collapseSix" role="tabpanel" aria-labelledby="headingSix" data-parent="#acordion">
+                        <div class="collapse acordeon" id="collapseSix" role="tabpanel" aria-labelledby="headingSix" data-parent="#acordion">
                             <div class="card-body">
                                 <ol>
                                     <li>

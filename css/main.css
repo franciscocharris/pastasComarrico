@@ -229,7 +229,7 @@ a:hover{
         padding-top: 16rem;
     }
     .vh-50{
-        height: 50vmin;
+        height: 90vmin;
     }
 }
 /* fin header */
@@ -274,7 +274,7 @@ a:hover{
         color: var(--colorSecundario);
         margin: 1rem 0 0 0;
         -webkit-text-stroke: 1.5px var(--colorPrimario);
-        font-size: 4rem;
+        font-size: 5rem;
     }
     .header_princial p {
         font-family: var(--fuenteComarrico);
@@ -291,7 +291,7 @@ a:hover{
         border-radius: 50px;
         background: var(--colorPrimario);
         font-weight: bold;
-        font-size: .7rem;
+        font-size: .8rem;
         padding: .5rem .9rem;
     }
 }
@@ -311,14 +311,25 @@ p.nosotros_home{
 
 /*css de kristopher*/
 /* NOSOTROS */
-.header .nosotros{
+.header_nosotros{
+    background-image: url(../img/3.jpg);
+}
+.header .nosotros h1{
     -webkit-text-stroke: 2px #007135;
     font-family: var(--fuenteComarrico);
     font-size: 10rem;
     margin:0;
 }
-.header_nosotros{
-    background-image: url(../img/3.jpg);
+@media (max-width: 768px) {
+    .header .nosotros h1{
+        font-size:8rem;
+    }
+    .header .nosotros p{
+        font-size: 1.7rem;
+    }
+    .header .nosotros a{
+        padding: .5rem .9rem;
+    }
 }
 
 .site-section{
@@ -507,7 +518,7 @@ p.subtitulopolitica{
 
 
     /* seccion css de objetivos */
-    .collapse:not(.show) {
+    .acordeon.collapse:not(.show) {
         display: none; 
     }
     
