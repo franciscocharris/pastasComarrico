@@ -311,7 +311,7 @@ p.nosotros_home{
 
 /*css de kristopher*/
 /* NOSOTROS */
-.header_nosotros{
+.header.header_nosotros{
     background-image: url(../img/3.jpg);
 }
 .header .nosotros h1{
@@ -323,6 +323,7 @@ p.nosotros_home{
 @media (max-width: 768px) {
     .header .nosotros h1{
         font-size:8rem;
+        -webkit-text-stroke: 3.1px #007135;
     }
     .header .nosotros p{
         font-size: 1.7rem;

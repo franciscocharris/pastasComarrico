@@ -5,7 +5,7 @@
 <header class="header header_nosotros linear_white">
     <div class="row mw-100 m-0 h-100 justify-content-center" data-aos="fade-up">
         <div class="col-md-12 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
-            <div class="container d-flex flex-column align-items-center vh-50 nosotros text-center">
+            <div class="container d-flex flex-column align-items-center justify-content-center vh-50 nosotros text-center">
                 <h1 class="text-capitalize text-white font-weight-bold ">Nosotros</h1>
                 <p class="texto_comarrico">CONOCE UN POCO MAS SOBRE COMARRICO S.A.S</p>
                 <a href="#section-mision" class="btnplay play-single-big mb-4 d-inline-block" id="">
